@@ -10,7 +10,7 @@ die() {
 }
 
 if [[ ! -d platform/unix ]]; then
-	log "Can't find the 'plaform/unix' folder, make sure you run this from the root of the repository."
+	log "Can't find the 'platform/unix' folder, make sure you run this from the root of the repository."
 	exit 1
 fi
 
